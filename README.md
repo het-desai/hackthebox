@@ -1,2 +1,1 @@
-# hackthebox
-#hackthebox machines #write-ups
+[hackthebox](https://app.hackthebox.com) machines write-ups
