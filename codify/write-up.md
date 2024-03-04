@@ -262,7 +262,7 @@ done
 
 Analyzing the script mysql-backup.sh, I observed that it reads the MySQL password from /root/.creds and compares it with the user input. Interestingly, the script checks for a password confirmation, and upon success, it proceeds to back up MySQL databases.
 
-I attempted to exploit this script by spraying potential passwords from the RockYou wordlist. However, it appeared that the script stopped processing at a specific point twice, prompting further investigation. So, I research about the bash script issue and found an interesting information about [String comparison operators topic from this artical](https://opensource.com/article/19/10/programming-bash-logical-operators-shell-expansions). Bash script is not checking a password it's checking a password.
+I attempted to exploit this script by spraying potential passwords from the RockYou wordlist. However, it appeared that the script stopped processing at a specific point twice, prompting further investigation. So, I research about the bash script issue and found an interesting information about [String comparison operators topic from this artical](https://opensource.com/article/19/10/programming-bash-logical-operators-shell-expansions). The bash script is not checking a password, but it's checking a pattern of the password.
 
 ```bash
 #!/bin/bash
