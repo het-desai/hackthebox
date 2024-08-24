@@ -9,7 +9,7 @@ HackTheBox is an online platform that provides a variety of challenges that cove
 
 Each folder is named after the specific machine or challenge and contains:
 
-- `Write-up.docx`: A detailed write-up of the machine or challenge.
+- `Write-up.docx` or `Write-up.md` : A detailed write-up of the machine or challenge.
 - `screenshots/`: A directory containing screenshots of important steps or results.
 - `notes.txt`: Any additional notes or observations that were made during the challenge.
 - `exploit.py`: The exploit script used, if applicable.
