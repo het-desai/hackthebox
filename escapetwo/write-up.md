@@ -1052,6 +1052,6 @@ Info: Establishing connection to remote endpoint
 sequel\administrator
 ```
 
-## Lession Learned
+## Lesson Learned
 1. xlsx files can be extract.
 2. Check the sensitive files which contains password in configruation, ini, txt files.
