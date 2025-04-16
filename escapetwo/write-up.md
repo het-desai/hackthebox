@@ -623,7 +623,7 @@ MSSQL       10.10.11.51     1433   None             [-] ERROR(DC01\SQLEXPRESS): 
 
 The `crackmapexec` tool’s output gives no result, so test the combination manually and found a correct combination which was gotten from the `accounts.xlsx` file extraction time.
 
-![image.png](https://github.com/het-desai/hackthebox/blob/main/escapetwo/image1.png)
+![image.png](https://github.com/het-desai/hackthebox/blob/main/escapetwo/screenshots/image1.png)
 
 Try to get a reverse shell using the MS-SQL database. Here, a `PowerShell #3 (Base64)` payload from the [revshells](https://www.revshells.com/) was used.
 
@@ -769,7 +769,7 @@ Info: Upload successful!
 
 After trying usual Windows local privilege escalation but didn’t getting any success then ran the `SharpHound.ps1` script as a `ryan` user. Note: `SharpHound.ps1` script won't work using `evil-winrm` tool. Need a reverse shell. So, generate a revershell using the msfvenom tool.
 
-![image.png](https://github.com/het-desai/hackthebox/blob/main/escapetwo/image2.png)
+![image.png](https://github.com/het-desai/hackthebox/blob/main/escapetwo/screenshots/image2.png)
 
 In the `Terminal 2` where we got a new reverse shell, there we need to import the SharpHound.ps1 module and run it.
 
@@ -830,11 +830,11 @@ Info: Download successful!
 
 Now, start `Neo4j` and `Bloodhound` to open the SharpHound created file.
 
-![image.png](https://github.com/het-desai/hackthebox/blob/main/escapetwo/image3.png)
+![image.png](https://github.com/het-desai/hackthebox/blob/main/escapetwo/screenshots/image3.png)
 
-![image.png](https://github.com/het-desai/hackthebox/blob/main/escapetwo/image4.png)
+![image.png](https://github.com/het-desai/hackthebox/blob/main/escapetwo/screenshots/image4.png)
 
-![image.png](https://github.com/het-desai/hackthebox/blob/main/escapetwo/image5.png)
+![image.png](https://github.com/het-desai/hackthebox/blob/main/escapetwo/screenshots/image5.png)
 
 Given Help’s Linux Abuse method is a bit tricky to exploit. After going through a lot of blogs, write-ups, and Google searches and found a few useful articles.
 
@@ -999,7 +999,7 @@ Certipy v4.8.2 - by Oliver Lyak (ly4k)
 [*] Saved JSON output to '20250416115049_Certipy.json'
 ```
 
-![image.png](https://github.com/het-desai/hackthebox/blob/main/escapetwo/image6.png)
+![image.png](https://github.com/het-desai/hackthebox/blob/main/escapetwo/screenshots/image6.png)
 
 The above JSON file says ESC4 vulnerability, but here we need to perform an [ESC1](https://github.com/ly4k/Certipy?tab=readme-ov-file#esc1) certificate attack to get an administrator certificate.
 
