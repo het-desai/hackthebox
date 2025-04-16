@@ -1,6 +1,6 @@
 # EscapeTwo
 
-![EscapeTwo Complete](https://github.com/het-desai/hackthebox/blob/main/escapetwo/escapetwo.png)
+![EscapeTwo Complete](https://github.com/het-desai/hackthebox/blob/main/escapetwo/screenshots/escapetwo.png)
 
 ## Introduction
 
