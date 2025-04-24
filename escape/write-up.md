@@ -194,7 +194,7 @@ SQL_SVC::sequel:033...00:REGGIE1234ronnie
 ...
 ```
 
-Revisit the LLMNR topic from TCM course.
+The LLMNR topic from [TCM: AD](https://www.youtube.com/watch?v=VXxH4n684HE&list=PLLKT__MCUeixqHJ1TRqrHsEd6_EdEvo47&index=12&t=5887s) helps you here to extract NTLM hash.
 
 ```
 ┌──(kali㉿kali)-[~/htb/Escape]
